@@ -329,7 +329,7 @@ composer_icon_folders = ["Telegram"]
     filegroup(
         name = "{}_icon".format(name),
         srcs = glob([
-            "Telegram-iOS/{}.icon/**/*".format(name),
+            "Telegram-iOS/{}.appiconset/**/*".format(name),
         ]),
     ) for name in composer_icon_folders
 ]
